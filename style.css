@@ -1,0 +1,44 @@
+
+body{
+    font-family: verdana;
+    background-color: blanchedalmond;
+}
+img {
+    width: 80px;
+}
+.izquierda {
+    float: right;
+    margin: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    position: relative;
+    width: 100%;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+}
+.centrar{
+    display: grid;
+    place-items: center;
+}
+.col-50 {
+    float: left;
+    width: 50%;
+}
+.margin10{
+    margin: 10px;
+}
